@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente"
+    tools:context=".MenuActivity"
+    >
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/logo"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="260dp"
+        android:src="@drawable/logo2"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="260dp"
+        android:src="@drawable/logo2"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="260dp"
+        android:src="@drawable/logo2"
+        />
+
+    <Button
+        android:id="@+id/botao02"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="300dp"
+        android:text="Usuarios"
+        />
+    <Button
+        android:id="@+id/botao03"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="400dp"
+        android:text="Lojas"
+        />
+    <Button
+        android:id="@+id/botao04"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="500dp"
+        android:text="Produtos"
+        />
+
+
+
+</RelativeLayout>
